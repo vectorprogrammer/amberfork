@@ -25,22 +25,6 @@ Amber is a position-independent(reflective) PE loader that enables in-memory exe
 
 # Installation
 Pre-compiled binaries can be found under [releases](https://github.com/EgeBalci/amber/releases).
-
-***Building From Source***
-
-The only dependency for building the source is the [keystone engine](https://github.com/keystone-engine/keystone), follow [these](https://github.com/keystone-engine/keystone/blob/master/docs/COMPILE.md) instructions for installing the library. Once libkeystone is installed on the system, simply just go get it ツ
-
-```
-go install github.com/EgeBalci/amber@latest
-```
-
-***Docker Install***
-
-[![Docker](http://dockeri.co/image/egee/amber)](https://hub.docker.com/r/egee/amber/)
-
-```
-docker pull egee/amber
-docker run -it egee/amber
 ```
 
 # Usage
